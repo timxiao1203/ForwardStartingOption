@@ -1,6 +1,6 @@
 # Forward Starting Option
 
-A model is presented for pricing European exercise, forward starting options on an underlying equity.
+A model is presented for pricing European exercise, forward start options (see https://finpricing.com/lib/EqCliquet.html) on an underlying equity.
 
 Let St denote the spot equity price at time t. We assume that the process satisfies under the domestic risk-neutral probability measure, a stochastic differential equity (SDE) of the form. This difficulty can be avoided by approximating the SDE dynamics via a partial differential equation (PDE).
 
@@ -18,7 +18,5 @@ The valuation requires two interest rate curve inputs. One curve, called the “
 The other, called the “discount curve, is specified by a list of m term and continuously compounded zero rate pairs, and is intended for use in calculating discount factors,
 
 References:
-
-https://finpricing.com/lib/EqBarrier.html
 
 https://osf.io/37fbt/download
